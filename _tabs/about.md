@@ -24,13 +24,13 @@ I'm currently preparing the [eJPTv2](https://ine.com/security/certifications/ejp
 
 - ***Course completions***:
 
-MOOC - ANSSI
+[MOOC - ANSSI](https://secnumacademie.gouv.fr/)
 
 [Cisco Networking Academy - Introduction to Cybersecurity](https://www.credly.com/badges/d09e652b-43fb-4203-a7cc-f28a88407782/public_url)
 
 [Tryhackme - Web Fundamentals](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FJXGKGEBME.pdf)
 
-MOOC - OSINT-FR
+[MOOC - OSINT-FR](https://mooc.osintfr.com/course/)
 
 Tryhackme - Junior penetration tester
 
