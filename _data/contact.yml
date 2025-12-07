@@ -15,6 +15,18 @@
   noblank: true
   url: 'https://www.linkedin.com/in/samy-t'
 
+- type: hackthebox
+  icon: "fab fa-hackthebox"
+  url: 'https://app.hackthebox.com/users/2465059'
+
+- type: tryhackme
+  icon: "fas fa-terminal" # ou fas fa-lock
+  url: 'https://tryhackme.com/p/N3rvz'
+
+- type: rootme
+  icon: "fas fa-user-secret" # ou fas fa-code
+  url: 'https://www.root-me.org/samynerv'
+
 #- type: rss
 #  icon: "fas fa-rss"
 #  noblank: true
