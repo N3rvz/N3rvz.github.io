@@ -3,7 +3,7 @@ title: "Pickle Rick - THM"
 date: 2025-12-07 00:00:00 +0800
 categories: [CTF]
 tags: [ctf, thm, tryhackme, easy]
-image: /assets/images/logo.jpg
+image: /assets/images/logo.png
 ---
 
 # **🏴 PICKLE RICK - Write-up**
