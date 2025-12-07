@@ -46,6 +46,9 @@ social:
     # The first element serves as the copyright owner's link
     - https://linkedin.com/samy-t # change to your Twitter homepage
     - https://github.com/N3rvz # change to your GitHub homepage
+    - https://tryhackme.com/p/N3rvz
+    - https://www.root-me.org/samynerv
+    - https://app.hackthebox.com/users/2465059
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
