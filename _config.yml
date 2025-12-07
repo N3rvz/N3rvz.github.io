@@ -27,19 +27,25 @@ url: "https://N3rvz.github.io"
 
 github:
     username: N3rvz # change to your GitHub username
+linkedin:
+  username: samy-t
+rootme:
+  username: samynerv
+tryhackme:
+  username: N3rvz
+hackthebox:
+  username: samynerv
 
-twitter:
-  username: twitter_username # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: N3rvz
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://linkedin.com/samy-t # change to your Twitter homepage
+    - https://github.com/N3rvz # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
