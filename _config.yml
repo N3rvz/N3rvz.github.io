@@ -44,7 +44,7 @@ social:
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://linkedin.com/samy-t # change to your Twitter homepage
+    - https://www.linkedin.com/in/samy-t # change to your Twitter homepage
     - https://github.com/N3rvz # change to your GitHub homepage
     - https://tryhackme.com/p/N3rvz
     - https://www.root-me.org/samynerv
