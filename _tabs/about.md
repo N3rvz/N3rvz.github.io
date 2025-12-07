@@ -12,11 +12,22 @@ I created this blog to document my learning journey and share educational write-
 
 In the long term, I aim to work as a penetration tester and eventually join an offensive security or red team.
 
+
+
 - ***Certifications***:
+
 I'm currently preparing the [eJPTv2](https://ine.com/security/certifications/ejpt-certification)
+
+
 - ***Course completion***:
+
 MOOC - ANSSI
+
 Cisco Networking Academy - Introduction to Cybersecurity
+
 Tryhackme - Web Fundamentals
+
 MOOC - OSINT-FR
+
 Tryhackme - Junior penetration tester
+
