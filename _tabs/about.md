@@ -8,7 +8,7 @@ I am a 3rd year computer science student at [UVSQ](https://www.uvsq.fr/) with a 
 
 I spend part of my time learning through platforms such as [TryHackMe](https://tryhackme.com/), [HackTheBox](https://www.hackthebox.com/), and [Root-Me](https://www.root-me.org/) where I practice solving challenges, improving my technical skills, and developing a structured approach to security testing.
 
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=3072449" style='border:none;'></iframe>
+<img src="https://tryhackme-badges.s3.amazonaws.com/N3rvz.png" alt="Your Image Badge" />
 
 I created this blog to document my learning journey and share educational write-ups, providing clear and accessible explanations of the concepts and techniques I explore. Everything presented here is strictly for educational purposes and conducted within a legal framework.
 
