@@ -32,5 +32,5 @@ MOOC - ANSSI
 
 MOOC - OSINT-FR
 
-[Tryhackme - Junior penetration tester]()
+Tryhackme - Junior penetration tester
 
