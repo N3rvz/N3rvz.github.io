@@ -11,8 +11,9 @@
   noblank: true # open link in current tab
 
 - type: linkedin
-  icon: "fas fa-linkedin"
+  icon: "fab fa-linkedin"
   noblank: true
+  url: 'https://www.linkedin.com/in/samy-t'
 
 #- type: rss
 #  icon: "fas fa-rss"
