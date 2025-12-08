@@ -32,5 +32,5 @@ I'm currently preparing the [eJPTv2](https://ine.com/security/certifications/ejp
 
 [MOOC - OSINT-FR](https://mooc.osintfr.com/course/)
 
-Tryhackme - Junior penetration tester
+[Tryhackme - Jr Penetration tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-D1JWWIZUGR.pdf)
 
