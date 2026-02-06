@@ -47,7 +47,7 @@ social:
     - https://www.linkedin.com/in/samy-t # change to your Twitter homepage
     - https://github.com/N3rvz # change to your GitHub homepage
     - https://tryhackme.com/p/N3rvz
-    - https://www.root-me.org/samynerv
+    - https://www.root-me.org/N3rvzz
     - https://app.hackthebox.com/users/2465059
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -107,7 +107,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: assets/images/2165674.png
+avatar: assets/images/PDP.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
