@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+# icon: fas fa-info-circle
+# order: 4
 ---
 
 I am a 3rd year computer science student at [UVSQ](https://www.uvsq.fr/) with a strong interest in cybersecurity, especially penetration testing and offensive security.
