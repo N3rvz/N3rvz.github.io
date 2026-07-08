@@ -27,8 +27,6 @@ url: "https://N3rvz.github.io"
 
 github:
     username: N3rvz # change to your GitHub username
-linkedin:
-  username: samy-t
 rootme:
   username: samynerv
 tryhackme:
@@ -44,7 +42,6 @@ social:
   email: n3rvzz@proton.me
   links:
     # The first element serves as the copyright owner's link
-    - https://www.linkedin.com/in/samy-t # change to your Twitter homepage
     - https://github.com/N3rvz # change to your GitHub homepage
     - https://tryhackme.com/p/N3rvz
     - https://www.root-me.org/N3rvzz
