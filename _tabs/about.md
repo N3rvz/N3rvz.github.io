@@ -19,7 +19,8 @@ In the long term, I aim to work as a penetration tester and eventually join an o
 
 - ***Certifications***:
 
-I'm currently preparing the [eJPTv2](https://ine.com/security/certifications/ejpt-certification)
+[eJPTv2](https://ine.com/security/certifications/ejpt-certification)
+<embed src="/assets/images/ejpt-certificate.pdf" width="100%" height="500px" type="application/pdf" />
 
 
 - ***Course completions***:
