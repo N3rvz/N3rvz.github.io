@@ -1,24 +1,30 @@
+---
+title: About
+icon: fas fa-info-circle
+order: 4
+---
 
+I am a cybersecurity student at [École 2600](https://www.2600.eu/) with a strong interest in offensive security.
 
-I am a 3rd year computer science student at [UVSQ](https://www.uvsq.fr/) with a strong interest in cybersecurity, especially penetration testing and offensive security.
+I spend part of my time learning through platforms such as [HackTheBox](https://app.hackthebox.com/public/users/2465059), [Root-Me](https://www.root-me.org/n3rvzz) and [TryHackMe](https://tryhackme.com/p/N3rvz) where I practice solving challenges, improving my technical skills, and developing a structured approach to security testing.
 
-I spend part of my time learning through platforms such as [TryHackMe](https://tryhackme.com/), [HackTheBox](https://www.hackthebox.com/), and [Root-Me](https://www.root-me.org/) where I practice solving challenges, improving my technical skills, and developing a structured approach to security testing.
+I created this blog to document my learning journey and share educational write-ups, providing clear and accessible explanations of the concepts and techniques I explore. Everything here is for educational purposes only, conducted in legal and authorized environments.
 
-<img src="https://tryhackme-badges.s3.amazonaws.com/N3rvz.png" alt="Your Image Badge" />
-
-
-I created this blog to document my learning journey and share educational write-ups, providing clear and accessible explanations of the concepts and techniques I explore. Everything presented here is strictly for educational purposes and conducted within a legal framework.
-
-In the long term, I aim to work as a penetration tester and eventually join an offensive security or red team.
+I'm currently looking for a cybersecurity apprenticeship starting September 2026. If my profile interests you, feel free to reach out.
 
 
 
 - ***Certifications***:
 
-- [eLearnSecurity Junior Penetration Tester (eJPT)](https://ine.com/security/certifications/ejpt-certification)
+- [CyberWarFare Labs - Certified Red Team Analyst (CRTA)](https://labs.cyberwarfare.live/credential/achievement/6a7268d38aed14e94c99076a)
+
+- [eLearnSecurity Junior Penetration Tester (eJPT)](https://certs.ine.com/df03ce9b-f1ac-4b8f-86ef-0cbaf298857c#acc.rjSFon7y)
 
 
 ![Certificat eJPT](/assets/images/eJPT_certificat.png)
+
+- [Certified Penetration Testing Specialist (CPTS) — HackTheBox](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist) — *in progress*
+- [Certified Web Exploitation Specialist (CWES) — HackTheBox Academy](https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist) — *in progress*
 
 
 - ***Course completions***:
