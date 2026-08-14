@@ -18,12 +18,15 @@ I'm currently looking for a cybersecurity apprenticeship starting September 2026
 
 - [CyberWarFare Labs - Certified Red Team Analyst (CRTA)](https://labs.cyberwarfare.live/credential/achievement/6a7268d38aed14e94c99076a)
 
-![Certificat CRTA](assets/images/CRTA.png)
+<div style="text-align: center;">
+  <img src="/assets/images/CRTA_certificat.png" alt="Certificat CRTA" width="80%" />
+</div>
 
 - [eLearnSecurity Junior Penetration Tester (eJPT)](https://certs.ine.com/df03ce9b-f1ac-4b8f-86ef-0cbaf298857c#acc.rjSFon7y)
 
-
-![Certificat eJPT](/assets/images/eJPT_certificat.png)
+<div style="text-align: center;">
+  <img src="/assets/images/eJPT_certificat.png" alt="Certificat eJPT" width="80%" />
+</div>
 
 - [Certified Penetration Testing Specialist (CPTS) — HackTheBox](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist) — *in progress*
 - [Certified Web Exploitation Specialist (CWES) — HackTheBox Academy](https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist) — *in progress*
