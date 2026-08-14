@@ -18,6 +18,8 @@ I'm currently looking for a cybersecurity apprenticeship starting September 2026
 
 - [CyberWarFare Labs - Certified Red Team Analyst (CRTA)](https://labs.cyberwarfare.live/credential/achievement/6a7268d38aed14e94c99076a)
 
+![Certificat CRTA](assets/images/CRTA.png)
+
 - [eLearnSecurity Junior Penetration Tester (eJPT)](https://certs.ine.com/df03ce9b-f1ac-4b8f-86ef-0cbaf298857c#acc.rjSFon7y)
 
 
