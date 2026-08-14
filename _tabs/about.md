@@ -29,7 +29,7 @@ I'm currently looking for a cybersecurity apprenticeship starting September 2026
 </div>
 
 - [Certified Penetration Testing Specialist (CPTS) — HackTheBox](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist) — *in progress*
-- [Certified Web Exploitation Specialist (CWES) — HackTheBox Academy](https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist) — *in progress*
+- [Certified Web Exploitation Specialist (CWES) — HackTheBox](https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist) — *in progress*
 
 
 - ***Course completions***:
