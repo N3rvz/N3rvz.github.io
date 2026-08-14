@@ -16,7 +16,7 @@ timezone: Europe/Paris
 
 title: N3rvz # the main title
 
-tagline: N3rvz' blog # it will display as the subtitle
+tagline: Cybersecurity write-ups & labs # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A blog about Security and CTF's
@@ -28,11 +28,11 @@ url: "https://N3rvz.github.io"
 github:
     username: N3rvz # change to your GitHub username
 rootme:
-  username: samynerv
+  username: N3rvzz
 tryhackme:
   username: N3rvz
 hackthebox:
-  username: samynerv
+  username: N3rvzz
 
 
 social:
@@ -45,7 +45,7 @@ social:
     - https://github.com/N3rvz # change to your GitHub homepage
     - https://tryhackme.com/p/N3rvz
     - https://www.root-me.org/N3rvzz
-    - https://app.hackthebox.com/users/2465059
+    - https://app.hackthebox.com/public/users/2465059
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
