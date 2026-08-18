@@ -5,7 +5,7 @@ categories: [WriteUp]
 tags: [WriteUp, HTB, hackthebox, Easy, Windows]
 image: /assets/images/HTB-Support/Support_Logo.png
 ---
-
+Support is an Easy Windows machine where we exploit an SMB null session to discover a custom .NET binary. Reverse engineering this executable reveals LDAP credentials, allowing a directory dump to uncover a standard user password for WinRM access. Privilege escalation involves abusing a GenericAll privilege over the domain controller to perform a Resource-Based Constrained Delegation (RBCD) attack, resulting in full system compromise.
 
 ## 0. Description
 
@@ -140,7 +140,8 @@ nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz
 With a technical `ldap` account already known (identified via anonymous LDAP / the challenge context), the domain's user list is extracted:
 
 ```bash
-windapsearch -d support.htb --dc "10.129.230.181" -u 'ldap' -p 'nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz' --module users | grep "sAMAccountName" | awk -F ': ' '{print $2}' > users.txt
+windapsearch -d support.htb --dc "10.129.230.181" -u 'ldap' -p 'nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz' --module users \
+ | grep "sAMAccountName" | awk -F ': ' '{print $2}' > users.txt
 ```
 
 ### 4.2 Spraying the password extracted from the binary
@@ -306,7 +307,7 @@ nt authority\system
 
 ## 8. Remediations
 
-- Do not expose SMB shares readable by anonymous/`guest` sessions, especially ones containing internal tools or custom binaries.
+- Do not expose SMB shares readable by anonymous/guest sessions, especially ones containing internal tools or custom binaries.
 - Never hardcode credentials (even encrypted/obfuscated) inside a distributed executable, homemade XOR algorithm is not a security measure.
 - Audit LDAP attributes (description, notes, etc.) to ensure no plaintext passwords are stored there.
 - Restrict the **GenericAll** privilege on computer objects, especially domain controllers, and monitor machine account creation (`ms-DS-MachineAccountQuota`).
