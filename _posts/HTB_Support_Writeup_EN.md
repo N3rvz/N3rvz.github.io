@@ -1,4 +1,10 @@
-# HackTheBox - Support
+---
+title: "HackTheBox - Support"
+date: 2026-08-18 00:00:00 +0800
+categories: [WriteUp]
+tags: [WriteUp, HTB, hackthebox, Easy, Windows]
+image: /assets/images/HTB_logo.png
+---
 
 ![image](assets/images/HTB-Support/Support_Logo.png)
 
