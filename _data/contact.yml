@@ -17,7 +17,7 @@
 
 - type: hackthebox
   icon: "fas fa-user-secret"
-  url: 'https://app.hackthebox.com/users/2465059'
+  url: 'https://app.hackthebox.com/public/users/2465059'
 
 - type: tryhackme
   icon: "fas fa-terminal" # ou fas fa-lock
@@ -25,7 +25,7 @@
 
 - type: rootme
   icon: "fas fa-skull" # ou fas fa-code
-  url: 'https://www.root-me.org/samynerv'
+  url: 'https://www.root-me.org/n3rvzz'
 
 #- type: rss
 #  icon: "fas fa-rss"
