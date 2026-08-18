@@ -96,7 +96,7 @@ The response reflected a full directory listing of the web root confirming the O
 
 Leveraging the same injection point to read `/etc/passwd`:
 
-![image](/assets/images/CRTA_Lab/passwd.png)
+![image](/assets/images/CRTA_Lab/Passwd.png)
 
 The response leaked the contents of /etc/passwd. While this file doesn't normally contain passwords, one entry was misconfigured with a plaintext password in the GECOS field
 
