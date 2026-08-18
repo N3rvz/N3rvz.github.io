@@ -6,12 +6,6 @@ tags: [ctf, thm, tryhackme, easy]
 image: /assets/images/logo.png
 ---
 
-# **🏴 PICKLE RICK - Write-up**
-
----
-
-- ## 📄 DESCRIPTION :
-
 
 **This Rick and Morty-themed challenge requires you to exploit a web server and find three ingredients to help Rick make his potion and transform himself back into a human from a pickle.**
 
