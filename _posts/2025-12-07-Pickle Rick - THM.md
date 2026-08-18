@@ -3,7 +3,7 @@ title: "Pickle Rick - THM"
 date: 2025-12-07 00:00:00 +0800
 categories: [CTF]
 tags: [ctf, thm, tryhackme, easy, WriteUp]
-image: /assets/images/THM-Pickle_rick/image2.jpg
+image: assets/images/logo.png
 ---
 
 
