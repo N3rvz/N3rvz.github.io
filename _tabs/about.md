@@ -30,17 +30,3 @@ I'm currently looking for a cybersecurity apprenticeship starting September 2026
 
 - [Certified Penetration Testing Specialist (CPTS) — HackTheBox](https://academy.hackthebox.com/preview/certifications/htb-certified-penetration-testing-specialist) — *in progress*
 - [Certified Web Exploitation Specialist (CWES) — HackTheBox](https://academy.hackthebox.com/preview/certifications/htb-certified-web-exploitation-specialist) — *in progress*
-
-
-- ***Course completions***:
-
-[MOOC - ANSSI](https://secnumacademie.gouv.fr/)
-
-[Cisco Networking Academy - Introduction to Cybersecurity](https://www.credly.com/badges/d09e652b-43fb-4203-a7cc-f28a88407782/public_url)
-
-[Tryhackme - Web Fundamentals](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-FJXGKGEBME.pdf)
-
-[MOOC - OSINT-FR](https://mooc.osintfr.com/course/)
-
-[Tryhackme - Jr Penetration tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-D1JWWIZUGR.pdf)
-
