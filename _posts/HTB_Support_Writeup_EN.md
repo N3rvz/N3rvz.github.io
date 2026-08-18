@@ -6,7 +6,7 @@ tags: [WriteUp, HTB, hackthebox, Easy, Windows]
 image: /assets/images/HTB_logo.png
 ---
 
-![image](assets/images/HTB-Support/Support_Logo.png)
+![image](/assets/images/HTB-Support/Support_Logo.png)
 
 ## 0. Description
 
@@ -210,7 +210,7 @@ bloodhound-python -d "support.htb" -u "support" -p "Ironside47pleasure40Watchful
 
 Graph analysis reveals that the `support` account is a member of the **`SHARED SUPPORT ACCOUNTS@SUPPORT.HTB`** group, which holds **GenericAll** privilege over the **`DC.SUPPORT.HTB`** computer object.
 
-![image](assets/images/HTB-Support/Bloodhound_support_genericAll.png)
+![image](/assets/images/HTB-Support/Bloodhound_support_genericAll.png)
 
 This full-control privilege over a computer object enables a **Resource-Based Constrained Delegation (RBCD)** attack:
 1. Create an attacker-controlled machine account (since no existing SPN-bearing account is controlled).
@@ -286,7 +286,7 @@ C:\Windows\system32> whoami
 nt authority\system
 ```
 
-![image](assets/images/HTB-Support/Pwned.png)
+![image](/assets/images/HTB-Support/Pwned.png)
 
 ---
 
