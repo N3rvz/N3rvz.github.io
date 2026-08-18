@@ -292,6 +292,7 @@ nt authority\system
 ---
 
 ## 7. Attack Chain Summary
+
 | &nbsp; | &nbsp; | &nbsp; |
 |---|---|---|
 | 1 | **SMB null session** | read access to the non-standard `support-tools` share. |
