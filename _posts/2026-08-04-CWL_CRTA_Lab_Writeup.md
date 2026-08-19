@@ -3,7 +3,7 @@ title: "CWL - CRTA Lab Writeup"
 date: 2026-08-04 16:00:00 +0200
 categories: [WriteUp]
 tags: [WriteUp, Active Directory, CRTA]
-image: /assets/images/CRTA_Lab/CRTA.png
+image: /assets/images/CRTA_Lab/CRTA_logo.png
 ---
 
 Complete writeup of the Certified Red Team Analyst (CRTA) practice lab provided by Cyber WareFare Labs, from web foothold to full Active Directory forest compromise.
