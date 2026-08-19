@@ -3,7 +3,7 @@ title: "HackTheBox - Support"
 date: 2026-08-18 00:00:00 +0800
 categories: [WriteUp]
 tags: [WriteUp, Active Directory, HackTheBox, Easy, Windows]
-image: /assets/images/HTB-Support/Support_Logo.png
+image: /assets/images/HTB-Support/Support.png
 ---
 Support is an Easy Windows machine where we exploit an SMB null session to discover a custom .NET binary. Reverse engineering this executable reveals LDAP credentials, allowing a directory dump to uncover a standard user password for WinRM access. Privilege escalation involves abusing a GenericAll privilege over the domain controller to perform a Resource-Based Constrained Delegation (RBCD) attack, resulting in full system compromise.
 
