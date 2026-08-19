@@ -216,7 +216,7 @@ Four hosts are up, including the already-compromised pivot (`192.168.98.15`).
 
 ### 7.1 Service enumeration per host
 
-**192.168.98.2 — `DC01` (warfare.corp)**
+**192.168.98.2 - `DC01` (warfare.corp)**
 
 ```bash
 nmap -sV -sC -O -T4 192.168.98.2 -oN NmapResults_Internal02.txt
@@ -265,7 +265,7 @@ Nmap done: 1 IP address (1 host up) scanned in 29.96 seconds
 ```
 Identified as the **forest root domain controller** for `warfare.corp`.
 
-**192.168.98.30 — `MGMT`**
+**192.168.98.30 - `MGMT`**
 
 ```bash
 nmap -sV -sC -O -T4 192.168.98.30 -oN NmapResults_Internal30.txt
@@ -329,7 +329,7 @@ No Kerberos/LDAP → a **domain-joined workstation/server**, not a DC.
 
 
 
-**192.168.98.120 — `CDC` (child.warfare.corp)**
+**192.168.98.120 - `CDC` (child.warfare.corp)**
 
 ```bash
 nmap -sV -sC -O -T4 192.168.98.120 -oN NmapResults_Internal120.txt
