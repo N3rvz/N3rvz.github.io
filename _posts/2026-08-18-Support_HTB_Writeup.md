@@ -17,7 +17,7 @@ Support is an Easy Windows machine where we exploit an SMB null session to disco
 
 **Domain:** support.htb
 
-**Environment:** Exegol
+**Attacking Environment:** Exegol
 
 ---
 
