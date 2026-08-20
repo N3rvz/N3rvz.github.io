@@ -307,7 +307,7 @@ nt authority\system
 
 ---
 
-## 8. Remediations
+## 8. Remediation
 
 - Do not expose SMB shares readable by anonymous/guest sessions, especially ones containing internal tools or custom binaries.
 - Never hardcode credentials (even encrypted/obfuscated) inside a distributed executable, homemade XOR algorithm is not a security measure.
