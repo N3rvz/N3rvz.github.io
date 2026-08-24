@@ -313,7 +313,7 @@ root@orion:~# cat root.txt
 
 # 8. Sources 
 
-- https://french.opswat.com/blog/cve-2025-32432-unauthenticated-remote-code-execution-in-craft-cms
+- [https://french.opswat.com/blog/cve-2025-32432-unauthenticated-remote-code-execution-in-craft-cms](https://french.opswat.com/blog/cve-2025-32432-unauthenticated-remote-code-execution-in-craft-cms)
 - https://www.exploit-db.com/exploits/52525
 - https://nvd.nist.gov/vuln/detail/CVE-2025-32432
 - https://nvd.nist.gov/vuln/detail/cve-2026-24061
