@@ -2,7 +2,7 @@
 title: "HackTheBox - Orion"
 date: 2026-08-20 15:05:00 +0200
 categories: [WriteUp]
-tags: "WriteUp, HackTheBox, Linux, Easy"
+tags: [WriteUp, HackTheBox, Linux, Easy]
 image: /assets/images/HTB-Orion/Orion_Logo.png
 ---
 
