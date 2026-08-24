@@ -11,7 +11,7 @@ Orion is a Linux box running the Orion Telecom website on CraftCMS. Initial acce
 ---
 
 
-# 0. Description
+## 0. Description
 
 **OS:** Linux
 
@@ -25,9 +25,9 @@ Orion is a Linux box running the Orion Telecom website on CraftCMS. Initial acce
 ---
 
 
-# 1. Reconnaissance
+## 1. Reconnaissance
 
-## 1.1 Host Discovery
+### 1.1 Host Discovery
 
 ```bash
 echo "10.129.103.43 orion.htb" | sudo tee -a /etc/hosts
@@ -53,7 +53,7 @@ rtt min/avg/max/mdev = 43.066/66.942/82.312/12.985 ms
 A TTL of 63 confirms the target machine is running Linux.
 
 
-## 1.2 Port scanning
+### 1.2 Port scanning
 
 
 ```bash
@@ -94,7 +94,7 @@ Nmap done: 1 IP address (1 host up) scanned in 37.50 seconds
 
 
 
-## 1.3 Subdomain/Directory discovery
+### 1.3 Subdomain/Directory discovery
 
 ```bash
 ffuf -c -w /opt/lists/seclists/Discovery/DNS/subdomains-top1million-5000.txt -u "http://orion.htb/FUZZ"
@@ -144,7 +144,7 @@ CraftCMS 5.6.16 is affected by **CVE-2025-32432**, a critical unauthenticated re
 ---
 
 
-# 2. Foothold
+## 2. Foothold
 
 A working Metasploit module exists for this CVE:
 
@@ -158,7 +158,7 @@ Server username: www-data
 ---
 
 
-# 3. Local enumeration
+## 3. Local enumeration
 
 Stabilizing the shell:
 
@@ -214,9 +214,9 @@ Recovering an email adress and a bcrypt password hash
 ---
 
 
-# 4. Lateral mouvement
+## 4. Lateral mouvement
 
-## 4.1 Password cracking
+### 4.1 Password cracking
 
 ```
 hashcat -a 0 -m 3200 hash.txt rockyou.txt
@@ -225,7 +225,7 @@ $2y$13$e9zuohgFZzGtbQalcn9Mz.5PJbjxobO0GMbXo8NHp3P/B42LUg0lS:darkangel
 ```
 
 
-## 4.2 Authentication as Adam
+### 4.2 Authentication as Adam
 
 ```bash
 ssh adam@10.129.103.43
@@ -242,9 +242,9 @@ user.txt
 ---
 
 
-# 5. Privilege Escalation
+## 5. Privilege Escalation
 
-## 5.1 Finding the local telnet service
+### 5.1 Finding the local telnet service
 
 ```bash
 adam@orion:~$ netstat -tulnp
@@ -265,7 +265,7 @@ adam@orion:~$ telnet --version
 telnet (GNU inetutils) 2.7
 ```
 
-## 5.2 CVE-2026-24061
+### 5.2 CVE-2026-24061
 
 This version passes the client-supplied `USER` environment variable directly to `/usr/bin/login` without sanitization. An attacker can inject a `-f root` argument via the NEW_ENVIRON option to bypass authentication entirely and get an interactive root shell.
 
@@ -287,7 +287,7 @@ root@orion:~# cat root.txt
 ---
 
 
-# 6. Attack Chain Recap
+## 6. Attack Chain Recap
 
 | # | Step | Detail |
 |---|------|--------|
@@ -300,7 +300,7 @@ root@orion:~# cat root.txt
 
 ---
 
-# 7. Remediation
+## 7. Remediation
 
 - Patch CraftCMS beyond 5.6.16 to address CVE-2025-32432.
 - Never store database credentials in plaintext environment variables readable by the web service user, use a secrets manager or restricted-permission config files.
@@ -311,10 +311,10 @@ root@orion:~# cat root.txt
 ---
 
 
-# 8. Sources 
+## 8. Sources 
 
 - [https://french.opswat.com/blog/cve-2025-32432-unauthenticated-remote-code-execution-in-craft-cms](https://french.opswat.com/blog/cve-2025-32432-unauthenticated-remote-code-execution-in-craft-cms)
-- https://www.exploit-db.com/exploits/52525
-- https://nvd.nist.gov/vuln/detail/CVE-2025-32432
-- https://nvd.nist.gov/vuln/detail/cve-2026-24061
-- https://www.offsec.com/blog/cve-2026-24061/
+- [https://www.exploit-db.com/exploits/52525](https://www.exploit-db.com/exploits/52525)
+- [https://nvd.nist.gov/vuln/detail/CVE-2025-32432](https://nvd.nist.gov/vuln/detail/CVE-2025-32432)
+- [https://nvd.nist.gov/vuln/detail/cve-2026-24061](https://nvd.nist.gov/vuln/detail/cve-2026-24061)
+- [https://www.offsec.com/blog/cve-2026-24061](https://www.offsec.com/blog/cve-2026-24061)
